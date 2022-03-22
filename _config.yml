@@ -28,9 +28,11 @@ domain: beleopard.com # the subpath of your site, e.g. /blog
 url: https://beleopard.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
+avatar: logo.png
+favicon: logo.png
 
 # Build settings
-theme: minima
+theme: type-on-strap
 plugins:
   - jekyll-feed
 # Exclude from processing.
