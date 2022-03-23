@@ -47,10 +47,10 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
+# collections:
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:name
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
