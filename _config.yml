@@ -32,7 +32,7 @@ avatar: logo.png
 favicon: logo.png
 header_text: Here to change the rules
 footer_text: BeLeopard, 2022
-header_feature_image: logo.png
+header_feature_image: leopard.jpg
 header_feature_image_responsive: true
 
 # Build settings
@@ -47,6 +47,10 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
