@@ -1,5 +1,5 @@
 ---
-layout: idispensa
+layout: post
 title: iDispensa
 feature-img: "assets/img/logos/idispensa.png"
 img: "assets/img/logos/idispensa.png"

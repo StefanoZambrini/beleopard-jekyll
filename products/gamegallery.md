@@ -1,5 +1,5 @@
 ---
-layout: gamegallery
+layout: post
 title: Game Gallery
 feature-img: "assets/img/logos/gamegallery.png"
 img: "assets/img/logos/gamegallery.png"

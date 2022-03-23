@@ -1,5 +1,5 @@
 ---
-layout: bestronger
+layout: post
 title: BeStronger
 feature-img: "assets/img/logos/bestronger.png"
 img: "assets/img/logos/bestronger.png"
