@@ -1,9 +1,8 @@
 ---
-layout: post
-title: BeStronger
-feature-img: "assets/img/logos/bestronger.png"
+layout: page
+title: Level up your training
+feature-img: "assets/img/feature/bestronger_feature.png"
 img: "assets/img/logos/bestronger.png"
-date: 27 September 2015
 tags: [iOS]
 ---
 

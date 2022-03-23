@@ -1,9 +1,8 @@
 ---
-layout: post
-title: iDispensa
-feature-img: "assets/img/logos/idispensa.png"
+layout: page
+title: A simple app to rule everything in your home!
+feature-img: "assets/img/feature/idispensa_feature.png"
 img: "assets/img/logos/idispensa.png"
-date: 27 September 2015
 tags: [iOS]
 ---
 

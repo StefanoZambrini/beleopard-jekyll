@@ -1,9 +1,8 @@
 ---
-layout: post
-title: Game Gallery
-feature-img: "assets/img/logos/gamegallery.png"
+layout: page
+title: Play is everything
+feature-img: "assets/img/feature/gamegallery_feature.png"
 img: "assets/img/logos/gamegallery.png"
-date: 27 September 2015
 tags: [Android]
 ---
 
