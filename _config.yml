@@ -36,7 +36,6 @@ header_feature_image: leopard.jpg
 header_feature_image_responsive: true
 
 # Build settings
-theme: type-on-strap
 remote_theme: sylhare/Type-on-Strap
 plugins:
   - jekyll-feed
