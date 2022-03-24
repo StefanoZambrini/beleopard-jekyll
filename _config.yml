@@ -37,7 +37,7 @@ header_feature_image_responsive: true
 
 # Build settings
 remote_theme: sylhare/Type-on-Strap
-theme: type-on-strap
+# theme: type-on-strap
 plugins:
   - jekyll-feed
 # Exclude from processing.
