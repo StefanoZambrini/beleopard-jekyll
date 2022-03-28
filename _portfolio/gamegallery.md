@@ -6,9 +6,9 @@ img: "assets/img/logos/gamegallery.png"
 tags: [Android]
 ---
 
-## Be Stronger is the app designed to optimize the strenght training by allowing you to keep track of your programs and the progresses.
+## Hi players! Game Gallery is an application which allows to explore new games and track them in your profile.
 
-### Log your workouts and focus on the most important think, be stronger over time.
+### Stay updated with the last releases and create your own gallery!
 
 ![presentation](/assets/img/presentation/gamegallery_presentation.jpg)
 
