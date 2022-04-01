@@ -30,6 +30,7 @@ twitter_username: jekyllrb
 github_username: jekyll
 avatar: logo.png
 favicon: logo.png
+color_theme: dark
 header_text: Here to change the rules
 footer_text: BeLeopard, 2022
 header_feature_image: assets/img/feature/feature_home.png
