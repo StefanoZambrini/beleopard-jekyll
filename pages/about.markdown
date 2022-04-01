@@ -3,7 +3,7 @@ layout: page
 title: About
 subtitle: Who we are?
 permalink: /about/
-feature-img: "assets/img/feature/wip_feature.jpg"
+feature-img: "assets/img/feature/feature_home.png"
 ---
 
 **BeLeopard** is a technology provider built for creating software solutions for both business and consumer customers.
