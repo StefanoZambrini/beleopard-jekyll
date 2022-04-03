@@ -50,7 +50,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 collections:
-  portfolio:
+  products:
     output: true
     permalink: /:collection/:name
 # exclude:
