@@ -36,9 +36,11 @@ footer_text: BeLeopard, 2022
 header_feature_image: assets/img/feature/feature_home.png
 header_feature_image_responsive: true
 
+paginate: 5
+
 # Build settings
-remote_theme: sylhare/Type-on-Strap
-# theme: type-on-strap
+# remote_theme: sylhare/Type-on-Strap
+theme: type-on-strap
 plugins:
   - jekyll-feed
 # Exclude from processing.
