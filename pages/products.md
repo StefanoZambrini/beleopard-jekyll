@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Products
-permalink: /portfolio/
+subtitle: What we have created?
+permalink: /products/
 feature-img: "assets/img/feature/feature_home.png"
 ---
 

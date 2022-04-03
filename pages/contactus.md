@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact us
+title: Contacts
 subtitle: Work in progress
 permalink: /contacts/
 feature-img: "assets/img/feature/wip_feature.jpg"
