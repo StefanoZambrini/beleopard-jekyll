@@ -37,6 +37,7 @@ header_feature_image: assets/img/feature/feature_home.png
 header_feature_image_responsive: true
 
 paginate: 5
+google_analytics: G-3EX71S8ZC3
 
 # Build settings
 # remote_theme: sylhare/Type-on-Strap
