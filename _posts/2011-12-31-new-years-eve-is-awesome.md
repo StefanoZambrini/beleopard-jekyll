@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Feature images
-# feature-img: "assets/img/feature-img/desk-messy.jpeg"
+feature-img: "assets/img/posts/features/gamegallery_feature_post00.png"
+thumbnail: "assets/img/posts/thumbnails/gamegallery_post00.png"
+
 # thumbnail: "assets/img/thumbnails/feature-img/desk-messy.jpeg"
 tags: [Test, Image]
 ---
