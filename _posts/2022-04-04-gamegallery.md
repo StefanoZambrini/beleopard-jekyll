@@ -14,3 +14,9 @@ This new major update includes:
 - Several bug fixes
 
 You can have a look into **Game Gallery** by clicking on this [link](https://beleopard.com//products/gamegallery) or just [Download the app](https://play.google.com/store/apps/details?id=com.game_gallery) if you haven't done yet!
+
+---
+
+_Marco Simone_
+
+Developer of BeLeopard
