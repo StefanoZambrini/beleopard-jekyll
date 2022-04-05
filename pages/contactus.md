@@ -3,7 +3,7 @@ layout: page
 title: Contacts
 subtitle: How to reach us
 permalink: /contacts/
-feature-img: "assets/img/feature/wip_feature.jpg"
+feature-img: "assets/img/feature/feature_home.png"
 ---
 
 ## Email
