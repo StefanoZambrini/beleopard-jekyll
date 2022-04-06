@@ -1,21 +1,16 @@
 <footer class="site-footer">
-                <div class="grid-container footer-container">
-                <div>
-                    <div><a class="text" aria-label="Cookie policy" title="Cookie policy" href="/cookie/"> Cookie policy</a>
-                </div>
-                <div>
-                    <p class="text">
-                        {{ site.footer_text | default: "Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a
-                            href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>" }}
-                    </p>
-                </div>
-                    <div class="footer-icons">
-                        <ul>
-                            <!-- Social icons from Font Awesome, if enabled -->
-                            {% include social/icons.liquid %}
-                        </ul>
-                    </div>
-                </div>
+    <div class="footer-container">
+        <a class="text" aria-label="Cookie policy" title="Cookie policy" href="/cookie/"> Cookie policy</a>
+        <p class="text">
+            {{ site.footer_text | default: "Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a
+                href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>" }}
+        </p>
+        <div class="footer-icons">
+            <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                {% include social/icons.liquid %}
+            </ul>
+        </div>
+    </div>
 
 </footer>
-
