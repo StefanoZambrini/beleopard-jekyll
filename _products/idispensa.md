@@ -1,6 +1,7 @@
 ---
 layout: page
-title: A simple app to rule everything in your home!
+title: iDispensa
+subtitle: A simple app to rule everything in your home!
 feature-img: "assets/img/feature/idispensa_feature.png"
 img: "assets/img/logos/idispensa.png"
 tags: [iOS]
