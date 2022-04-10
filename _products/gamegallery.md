@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Play is everything
+title: Game Gallery
+subtitle: Play is everything
 feature-img: "assets/img/feature/gamegallery_feature.png"
 img: "assets/img/logos/gamegallery.png"
 tags: [Android]
