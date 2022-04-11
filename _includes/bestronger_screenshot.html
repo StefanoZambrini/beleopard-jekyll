@@ -1,15 +1,45 @@
 <!-- Portfolio Grid Section -->
 <style>
     .screenshot-description {
-        height: 50%;
+        height: 40%;
     }
     .screenshot-image {
-        height: 50%;
+        height: 70%;
     }
+    #screenshot-dark-image {
+        border-radius: 8px;
+        width: 30%;
+    }
+    .button-grid {
+        justify-content: center;
+        display: grid;
+        padding: 3rem;
+    }
+    .button-item {
+        background-color: #EDE0D4;
+        border-radius: 2rem;
+        border: none;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-family: inherit;   
+        color: black;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+    
 </style>
 
 <div >
+    <div class="button-grid" style="align-items: center;">
+        <a href="https://apps.apple.com/us/app/bestronger-fitness-tracker/id1553022771">
+            <Button class="button-item">
+                <i style="color: black;" class="fab fa-apple fa-1.5x"></i>
+                Download from Apple Store
+            </Button>
+        </a>
+    </div>
     <div class="row">
+
         <div class="column">
             <img alt="" class="" src="/assets/img/screenshots/bestronger_screenshot_00.png">
         </div>
