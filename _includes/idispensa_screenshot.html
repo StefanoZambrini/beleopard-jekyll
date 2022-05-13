@@ -1,11 +1,19 @@
 <!-- Portfolio Grid Section -->
 <style>
+
+    .row {
+        flex: auto;
+  display: flex;
+  flex-direction: row;
+    }
+
     .screenshot-description {
         height: 40%;
     }
 
     .screenshot-image {
-        height: 70%;
+        max-width: 100%;
+    max-height: 100%;
     }
 
     .button-grid {
@@ -25,41 +33,58 @@
         padding-left: 1.5rem;
     }
 
+    .container {
+flex: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.container-item {
+    height: fit-content;
+    width: max-content;
+    width: 70%;
+}
+
+@media only screen and (max-width: 800px) {
+  .container { flex-wrap: wrap;  }
+}
+
 </style>
 
 <div>
     <div class="button-grid" style="align-items: center;">
         <a href="https://apps.apple.com/us/app/Dispensa/id1519593445">
             <Button class="button-item">
-                <i style="color: black;" class="fab fa-apple fa-1.5x"></i>
+                <i class="fab fa-apple fa-1.5x" style="color: black;"></i>
                 Download from Apple Store
             </Button>
         </a>
     </div>
     <div class="row">
         <div class="column">
+            <div class="screenshot-description"></div>
+            <h2>Keep track of your consumption</h2>
+            <div class="screenshot-description"></div>
+        </div>
+        <div class="column">
             <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_00.png">
         </div>
         <div class="column">
             <div class="screenshot-description"></div>
-                <h2>Add your favourite meals</h2>
-            <div class="screenshot-description"></div>
-        </div>
-        <div class="column">
-            <div class="screenshot-description"></div>
-            <h2>Keep track of your consumption</h2>
+            <h2>Add your pantries!</h2>
             <div class="screenshot-description"></div>
         </div>
         <div class="column">
             <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_01.png">
         </div>
         <div class="column">
-            <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_02.png">
-        </div>
-        <div class="column">
             <div class="screenshot-description"></div>
             <h2>Go to the grocery and taske what you really needs!</h2>
             <div class="screenshot-description"></div>
+        </div>
+        <div class="column">
+            <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_02.png">
         </div>
         <div class="column">
             <div class="screenshot-description"></div>
@@ -69,17 +94,15 @@
         <div class="column">
             <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_03.png">
         </div>
-        <div>
-            <h2>As always, dark mode!</h2>
-        </div>
-        <div class="row" >
-            <div>
-                <img alt="idispensa-screenshot-00-dark" 
-                    src="/assets/img/screenshots/idispensa_screenshot_00_dark.png">
+        <div class="container">
+            <div style="flex-grow: 5; flex-basis: 50%;">
+                <h2>As always, dark mode!</h2>
             </div>
-            <div>
-                <img alt="idispensa-screenshot-01-dark"
-                    src="/assets/img/screenshots/idispensa_screenshot_01_dark.png">
+            <div class="container-item" style="flex-grow: 1;">
+                <img alt="bestronger-screenshot-00-dark" class="screenshot-dark-image" id="screenshot-dark-image" src="/assets/img/screenshots/idispensa_screenshot_00_dark.png">
+            </div>
+            <div class="container-item" style="flex-grow: 1;">
+                <img alt="bestronger-screenshot-01-dark" class="screenshot-dark-image" class="screenshot-image" id="screenshot-dark-image" src="/assets/img/screenshots/idispensa_screenshot_01_dark.png">
             </div>
         </div>
     </div>
