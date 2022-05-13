@@ -37,8 +37,8 @@ paginate: 5
 google_analytics: G-3EX71S8ZC3
 
 # Build settings
-# remote_theme: sylhare/Type-on-Strap
-theme: type-on-strap # enable local
+remote_theme: sylhare/Type-on-Strap
+# theme: type-on-strap # enable local
 plugins:
   - jekyll-feed
 # Exclude from processing.
