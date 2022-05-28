@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Level up your training
+title: BeStronger
+subtitle: Level up your training
 feature-img: "assets/img/feature/bestronger_feature.png"
 img: "assets/img/logos/bestronger.png"
 tags: [iOS]

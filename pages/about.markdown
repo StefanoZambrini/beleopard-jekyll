@@ -21,3 +21,13 @@ By developing these cases, we want to give something **more** than what's common
 ## User first
 
 In every software we develop, we enable the user to get in touch with us by sending an email to suggest new features as well as reporting bugs. This because we feel the duty to provide the best experience according to our skills and capabilities with as few compromises as possible. We assure the 24 hours window to solve critical bugs that prevent the application to be usable against its potentials.
+
+## How you can contact us
+
+✉️ stefano.zambrini.business@gmail.com
+
+📍
+Via Verga, 20 | 73100, Lecce, LE
+
+🇮🇹 Italy
+
