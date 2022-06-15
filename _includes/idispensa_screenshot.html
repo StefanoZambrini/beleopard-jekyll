@@ -12,8 +12,8 @@
     }
 
     .screenshot-image {
-        max-width: 100%;
-    max-height: 100%;
+        max-width: 60%;
+        max-height: 60%;
     }
 
     .button-grid {
@@ -26,11 +26,11 @@
         border-radius: 2rem;
         border: none;
         padding: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-family: inherit;   
         color: black;
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
     }
 
     .container {
@@ -38,12 +38,24 @@ flex: auto;
   display: flex;
   flex-direction: row;
   margin-bottom: 3rem;
+  justify-content: center;
+
+}
+
+.container-text {
+    flex: 0 1 1000px;
+    justify-content: center;
 }
 
 .container-item {
     height: fit-content;
     width: max-content;
     width: 70%;
+}
+
+.text {
+    padding-top: 20%;
+    padding-right: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -53,57 +65,72 @@ flex: auto;
 </style>
 
 <div>
-    <div class="button-grid" style="align-items: center;">
-        <a href="https://apps.apple.com/us/app/Dispensa/id1519593445">
-            <Button class="button-item">
-                <i class="fab fa-apple fa-1.5x" style="color: black;"></i>
-                Download from Apple Store
-            </Button>
-        </a>
+    <div class="row" style="align-items: center;">
+        <div class="column button-grid">
+            <a href="https://apps.apple.com/us/app/Dispensa/id1519593445">
+                <Button class="button-item">
+                    <i class="fab fa-apple fa-1.5x" style="color: black;"></i>
+                    Download from Apple Store
+                </Button>
+            </a>
+        </div>
+
+        <div class="column button-grid">
+            <a href="https://play.google.com/store/apps/details?id=com.idispensa">
+                <Button class="button-item">
+                    <i class="fab fa-android fa-1.5x" style="color: black;"></i>
+                    Download from Play Store
+                </Button>
+            </a>
+        </div>
     </div>
     <div class="row">
-        <div class="column">
-            <div class="screenshot-description"></div>
-            <h2>Keep track of your consumption</h2>
-            <div class="screenshot-description"></div>
-        </div>
-        <div class="column">
-            <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_00.png">
-        </div>
-        <div class="column">
-            <div class="screenshot-description"></div>
-            <h2>Add your pantries!</h2>
-            <div class="screenshot-description"></div>
-        </div>
-        <div class="column">
-            <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_01.png">
-        </div>
-        <div class="column">
-            <div class="screenshot-description"></div>
-            <h2>Go to the grocery and taske what you really needs!</h2>
-            <div class="screenshot-description"></div>
-        </div>
-        <div class="column">
-            <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_02.png">
-        </div>
-        <div class="column">
-            <div class="screenshot-description"></div>
-            <h2>Have a look on each pantry box</h2>
-            <div class="screenshot-description"></div>
-        </div>
-        <div class="column">
-            <img alt="" class="" src="/assets/img/screenshots/idispensa_screenshot_03.png">
-        </div>
         <div class="container">
-            <div style="flex-grow: 5; flex-basis: 50%;">
-                <h2>As always, dark mode!</h2>
+            <div class="container-text">
+                <h2 class="text">Keep track of your consumption</h2>
             </div>
-            <div class="container-item" style="flex-grow: 1;">
-                <img alt="bestronger-screenshot-00-dark" class="screenshot-dark-image" id="screenshot-dark-image" src="/assets/img/screenshots/idispensa_screenshot_00_dark.png">
+            <div class="screenshot-image"> 
+                <img alt=""  src="/assets/img/screenshots/idispensa_ios_preview_01.png">
             </div>
-            <div class="container-item" style="flex-grow: 1;">
-                <img alt="bestronger-screenshot-01-dark" class="screenshot-dark-image" class="screenshot-image" id="screenshot-dark-image" src="/assets/img/screenshots/idispensa_screenshot_01_dark.png">
+            <div class="screenshot-image"> 
+            <img alt="" src="/assets/img/screenshots/idispensa_android_preview_01.png">
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="container-text">
+                <h2 class="text">Add your pantries!</h2>
             </div>
+            <div class="screenshot-image"> 
+                <img alt=""  src="/assets/img/screenshots/idispensa_ios_preview_02.png">
+            </div>
+            <div class="screenshot-image"> 
+            <img alt="" src="/assets/img/screenshots/idispensa_android_preview_02.png">
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="container-text">
+                <h2 class="text">Go to the grocery and taske what you really needs!</h2>
+            </div>
+            <div class="screenshot-image"> 
+                <img alt=""  src="/assets/img/screenshots/idispensa_ios_preview_01.png">
+            </div>
+            <div class="screenshot-image"> 
+            <img alt="" src="/assets/img/screenshots/idispensa_android_preview_01.png">
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="container-text">
+                <h2 class="text">Organize your pantries in separated boxes</h2>
+            </div>
+            <div class="screenshot-image"> 
+                <img alt=""  src="/assets/img/screenshots/idispensa_ios_preview_03.png">
+            </div>
+            <div class="screenshot-image"> 
+            <img alt="" src="/assets/img/screenshots/idispensa_android_preview_03.png">
+        </div>
         </div>
     </div>
 </div>
